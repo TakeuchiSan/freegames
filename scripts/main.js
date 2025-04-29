@@ -159,7 +159,7 @@ function loadData() {
             username: 'OwSaul',
             email: 'adityaryan407@gmail.com',
             level: 85,
-            heroes: 132,
+            heroes: 128,
             skins: 192,
             status: 'new',
             date: '2025-04-29'
