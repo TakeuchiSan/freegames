@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Ad</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f6fa;
+            color: #2d3436;
+            text-align: center;
+            padding: 20px;
+        }
+        .spinner {
+            border: 5px solid #a29bfe;
+            border-top: 5px solid #6c5ce7;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Please wait while we redirect you...</h2>
+        <div class="spinner"></div>
+        <p>You'll be automatically returned after viewing the ad.</p>
+    </div>
+
+    <script>
+        // Check if coming from your site
+        if (document.referrer.includes(window.location.hostname) || 
+            document.referrer.includes("yourdomain.com")) {
+            // Redirect to actual ad after 2 seconds
+            setTimeout(function() {
+                window.location.href = "https://your-adstera-url.com/actual-ad";
+            }, 2000);
+        } else {
+            // If not coming from your site, redirect back to home
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>
