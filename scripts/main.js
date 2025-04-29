@@ -222,7 +222,7 @@ function loadData() {
         {
             id: 7,
             game: 'Mobile Legends',
-            username: 'Skyyyy,
+            username: 'Skyyyy',
             email: 'tankmain456@gmail.com',
             level: 28,
             heroes: 42,
@@ -255,7 +255,7 @@ function loadData() {
         {
             id: 1,
             game: 'Mobile Legends',
-            username: 'SkuJIkakSuka,
+            username: 'SkuJIkakSuka',
             email: 'adityaryan407@gmail.com',
             level: 85,
             heroes: 132,
@@ -263,10 +263,11 @@ function loadData() {
             status: 'new',
             date: '2025-04-29'
         },
+        
         {
             id: 1,
             game: 'Mobile Legends',
-            username: 'Gαα.,
+            username: 'Gαα.',
             email: 'adityaryan407@gmail.com',
             level: 85,
             heroes: 132,
