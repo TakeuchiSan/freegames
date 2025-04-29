@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameFreebies - Free Accounts & Redeem Codes</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Game<span>Freebies</span></h1>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link" data-target="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-target="accounts">Free Accounts</a></li>
+                    <li><a href="#" class="nav-link" data-target="redeem">Redeem Codes</a></li>
+                    <li><a href="#" class="nav-link" data-target="about">About</a></li>
+                </ul>
+                <div class="language-switcher">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="id">Bahasa Indonesia</option>
+                    </select>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#" class="mobile-nav-link" data-target="home">Home</a></li>
+            <li><a href="#" class="mobile-nav-link" data-target="accounts">Free Accounts</a></li>
+            <li><a href="#" class="mobile-nav-link" data-target="redeem">Redeem Codes</a></li>
+            <li><a href="#" class="mobile-nav-link" data-target="about">About</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-translate="hero_title">Get Free Game Accounts & Redeem Codes</h1>
+                    <p class="hero-description" data-translate="hero_desc">Daily updated free Mobile Legends and Free Fire accounts plus working redeem codes for in-game items.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary nav-link" data-target="accounts" data-translate="get_accounts">Get Free Accounts</a>
+                        <a href="#" class="btn btn-secondary nav-link" data-target="redeem" data-translate="get_codes">Get Redeem Codes</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Game Characters" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Accounts Section -->
+        <section class="accounts-section" id="accounts">
+            <div class="container">
+                <h2 class="section-title" data-translate="free_accounts">Free Game Accounts</h2>
+                <p class="section-description" data-translate="accounts_desc">Claim these free accounts for Mobile Legends and Free Fire. Updated daily!</p>
+                
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-game="all" data-translate="all">All</button>
+                    <button class="filter-btn" data-game="ml" data-translate="ml">Mobile Legends</button>
+                    <button class="filter-btn" data-game="ff" data-translate="ff">Free Fire</button>
+                </div>
+                
+                <div class="accounts-grid" id="accounts-container">
+                    <!-- Accounts will be loaded from JSON via JavaScript -->
+                </div>
+                
+                <div class="load-more">
+                    <button class="btn btn-primary" id="load-more-accounts" data-translate="load_more">Load More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Redeem Codes Section -->
+        <section class="redeem-section" id="redeem">
+            <div class="container">
+                <h2 class="section-title" data-translate="redeem_codes">Redeem Codes</h2>
+                <p class="section-description" data-translate="redeem_desc">Latest working redeem codes for Mobile Legends and Free Fire.</p>
+                
+                <div class="redeem-tabs">
+                    <button class="redeem-tab active" data-game="ml" data-translate="ml">Mobile Legends</button>
+                    <button class="redeem-tab" data-game="ff" data-translate="ff">Free Fire</button>
+                </div>
+                
+                <div class="redeem-codes-container">
+                    <div class="redeem-codes active" id="ml-codes">
+                        <!-- ML codes will be loaded from JSON -->
+                    </div>
+                    <div class="redeem-codes" id="ff-codes">
+                        <!-- FF codes will be loaded from JSON -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="section-title" data-translate="about_us">About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-translate="about_text1">Welcome to GameFreebies, your number one source for free game accounts and redeem codes. We're dedicated to providing you the best of free gaming resources, with a focus on Mobile Legends and Free Fire.</p>
+                        <p data-translate="about_text2">Our team works hard to verify all accounts and codes before sharing them with our community. We update our content daily to ensure you get fresh, working freebies.</p>
+                        <p data-translate="about_text3">This service is completely free for all gamers. We support the gaming community by helping players access premium content without cost.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/500x300" alt="About Us" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3 class="footer-title" data-translate="about_us">About Us</h3>
+                    <p data-translate="footer_about">GameFreebies provides free game accounts and redeem codes for popular mobile games like Mobile Legends and Free Fire.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3 class="footer-title" data-translate="quick_links">Quick Links</h3>
+                    <ul>
+                        <li><a href="#" class="nav-link" data-target="home" data-translate="home">Home</a></li>
+                        <li><a href="#" class="nav-link" data-target="accounts" data-translate="free_accounts">Free Accounts</a></li>
+                        <li><a href="#" class="nav-link" data-target="redeem" data-translate="redeem_codes">Redeem Codes</a></li>
+                        <li><a href="#" class="nav-link" data-target="about" data-translate="about_us">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3 class="footer-title" data-translate="contact">Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@gamefreebies.com</p>
+                    <p><i class="fas fa-phone"></i> +62 831-3987-9023</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="copyright">&copy; 2025 GameFreebies. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/language-switcher.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
