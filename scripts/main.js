@@ -155,107 +155,140 @@ function loadData() {
     accountsData = [
         {
             id: 1,
-            game: 'ml',
-            username: 'MLPremium001',
-            password: 'ml123456',
-            level: 30,
-            heroes: 45,
-            skins: 20,
+            game: 'Mobile Legends',
+            username: 'OwSaul',
+            email: 'adityaryan407@gmail.com',
+            level: 85,
+            heroes: 132,
+            skins: 192,
             status: 'new',
-            date: '2023-06-15'
+            date: '2025-04-29'
         },
         {
             id: 2,
-            game: 'ml',
-            username: 'MLProAccount',
-            password: 'proaccount123',
-            level: 25,
-            heroes: 38,
-            skins: 15,
+            game: 'Mobile Legends',
+            username: 'Err? Yes Sirr',
+            email: 'erwindimas977@gmail.com',
+            level: 123,
+            heroes: 128,
+            skins: 329,
             status: 'verified',
-            date: '2023-06-14'
+            date: '2025-04-29'
         },
         {
             id: 3,
-            game: 'ff',
-            username: 'FFElitePlayer',
-            password: 'freefire123',
-            level: 50,
-            characters: 12,
-            skins: 30,
+            game: 'Free Fire',
+            username: 'Galihhhhh.',
+            email: 'galihilham90@gmail.com',
+            level: 62,
+            characters: 48,
+            skins: 486,
             status: 'verified',
-            date: '2023-06-14'
+            date: '2025-04-29'
         },
         {
             id: 4,
-            game: 'ff',
-            username: 'FFNewbie2023',
-            password: 'newplayer123',
-            level: 15,
-            characters: 5,
-            skins: 8,
+            game: 'Free Fire',
+            username: 'RifkiJago™',
+            email: 'rifkidewanta78gmail.com',
+            level: 74,
+            characters: 50,
+            skins: 523,
             status: 'new',
-            date: '2023-06-13'
+            date: '2025-04-29'
         },
         {
             id: 5,
-            game: 'ml',
-            username: 'MLDiamondSmurf',
-            password: 'diamond123',
-            level: 20,
-            heroes: 30,
-            skins: 12,
+            game: 'Mobile Legends',
+            username: 'Ferdi Good',
+            email: 'ferdiganteng89@gmail.com',
+            level: 120,
+            heroes: 128,
+            skins: 122,
             status: 'verified',
-            date: '2023-06-12'
+            date: '2025-04-29'
         },
         {
             id: 6,
-            game: 'ff',
-            username: 'FFGoldRank',
-            password: 'goldplayer123',
-            level: 35,
-            characters: 8,
-            skins: 18,
+            game: 'Free Fire',
+            username: 'Yuuuu?',
+            email: 'bayudika982@gmail.com',
+            level: 79,
+            characters: 50,
+            skins: 598,
             status: 'verified',
-            date: '2023-06-11'
+            date: '2025-04-29'
         },
         {
             id: 7,
-            game: 'ml',
-            username: 'MLTankMain',
-            password: 'tankmain456',
+            game: 'Mobile Legends',
+            username: 'Skyyyy,
+            email: 'tankmain456@gmail.com',
             level: 28,
             heroes: 42,
             skins: 22,
             status: 'new',
-            date: '2023-06-10'
+            date: '2025-04-29'
         },
         {
             id: 8,
-            game: 'ff',
-            username: 'FFSniperPro',
-            password: 'sniper1234',
+            game: 'Free Fire',
+            username: 'Dikii•√',
+            email: 'dikigaming982@gmail.com',
             level: 45,
             characters: 10,
             skins: 25,
             status: 'verified',
-            date: '2023-06-09'
-        }
+            date: '2025-04-29'
+        },
+        {
+            id: 8,
+            game: 'Free Fire',
+            username: 'Budi02gaming',
+            email: 'sniper1234@gmail.com',
+            level: 52,
+            characters: 40,
+            skins: 259,
+            status: 'verified',
+            date: '2025-04-29'
+        },
+        {
+            id: 1,
+            game: 'Mobile Legends',
+            username: 'SkuJIkakSuka,
+            email: 'adityaryan407@gmail.com',
+            level: 85,
+            heroes: 132,
+            skins: 192,
+            status: 'new',
+            date: '2025-04-29'
+        },
+        {
+            id: 1,
+            game: 'Mobile Legends',
+            username: 'Gαα.,
+            email: 'adityaryan407@gmail.com',
+            level: 85,
+            heroes: 132,
+            skins: 192,
+            status: 'new',
+            date: '2025-04-29'
+        },
     ];
     
     // Mock redeem codes data
     const mlCodes = [
-        { code: 'MLBB123456', reward: '50 Diamonds', expiry: '2023-06-30' },
-        { code: 'MOBILE7890', reward: 'Special Skin', expiry: '2023-07-15' },
-        { code: 'LEGENDS555', reward: '100 Tickets', expiry: '2023-06-25' },
-        { code: 'ML2023VIP', reward: 'Starlight Pass', expiry: '2023-07-01' }
+        { code: 'HOLAMLBB', reward: 'Random Box', expiry: '2025-06-30' },
+        { code: 'aw6ijgpvo', reward: 'Special Skin', expiry: '2025-07-15' },
+        { code: 'MLBBGETAPS', reward: '100 Tickets', expiry: '2025-06-25' },
+        { code: 'ML2025VIP', reward: 'Starlight Pass', expiry: '2025-07-01' }
     ];
     
     const ffCodes = [
-        { code: 'FREEFIRE99', reward: '100 Diamonds', expiry: '2023-06-28' },
-        { code: 'FFANNIV23', reward: 'Special Bundle', expiry: '2023-07-10' },
-        { code: 'GARENAXYZ', reward: 'Character Token', expiry: '2023-06-20' },
-        { code: 'FFSEASON5', reward: 'Weapon Skin', expiry: '2023-07-05' }
+        { code: 'FREEFIRE99', reward: '100 Diamonds', expiry: '2025-06-28' },
+        { code: 'FFANNIV23', reward: 'Special Bundle', expiry: '2025-07-10' },
+        { code: 'GARENAXYZ', reward: 'Character Token', expiry: '2025-06-20' },
+        { code: 'FFSEASONS', reward: 'Weapon Skin', expiry: '2025-07-05' }
     ];
     
     // Display initial accounts
@@ -376,7 +409,7 @@ function createAccountCard(account) {
     }
     
     let detailsHTML = '';
-    if (account.game === 'ml') {
+    if (account.game === 'Mobile Legends') {
         detailsHTML = `
             <div class="account-detail">
                 <span class="account-label">Heroes:</span>
@@ -387,7 +420,7 @@ function createAccountCard(account) {
                 <span class="account-value">${account.skins}</span>
             </div>
         `;
-    } else if (account.game === 'ff') {
+    } else if (account.game === 'Free Fire') {
         detailsHTML = `
             <div class="account-detail">
                 <span class="account-label">Characters:</span>
@@ -411,8 +444,8 @@ function createAccountCard(account) {
                 <span class="account-value">${account.username}</span>
             </div>
             <div class="account-detail">
-                <span class="account-label">Password:</span>
-                <span class="account-value">${account.password}</span>
+                <span class="account-label">Email:</span>
+                <span class="account-value">${account.email}</span>
             </div>
             <div class="account-detail">
                 <span class="account-label">Level:</span>
